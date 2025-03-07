@@ -15,6 +15,9 @@ public:
 
 int main()
 {
-    
-    return (0);
-    }
+    clsperson per1;
+      per1.firstname="Ahmed";
+      per1.lastname="Azizi";
+      cout <<per1.Fullname()  <<endl;
+ return (0);
+ }
