@@ -34,15 +34,20 @@ public:
 	void print_total() {
 		cout << "the total is " << total << endl;
 	}
+	void clear() {
+		total = 0;
+	}
 };
 
 int main() {
 	clcalculator calculator1;
 	calculator1.add(50);
 	calculator1.substract(10);
+	calculator1.clear();
+	calculator1.print_total();
+	calculator1.add(20);
 	calculator1.divide(2);
 	calculator1.Mutiply(10);
-	calculator1.print_total();
 
 	system("pause>0");
 	return(0);
