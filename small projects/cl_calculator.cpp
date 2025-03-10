@@ -23,12 +23,18 @@ public:
 		}
 		
 	}
+	void Mutiply(int val) {
+		total *= val;
+		cout << "the total after Multiplying by " << val << " is " << total << endl;
+	}
 };
 
 int main() {
 	clcalculator calculator1;
 	calculator1.add(10);
 	calculator1.divide(2);
+	calculator1.Mutiply(2);
+
 
 
 
@@ -37,3 +43,4 @@ int main() {
 
 
 }
+
