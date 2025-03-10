@@ -12,6 +12,10 @@ public:
 		total += val;
 		cout << "the total after adding " << val << " is " << total << endl;
 	}
+	void substract(int val) {
+		total -= val;
+		cout << "the total after subrtaction of " << val << " is " << total << endl;
+	}
 
 	void divide(int val) {
 		if (val == 0) {
@@ -31,9 +35,11 @@ public:
 
 int main() {
 	clcalculator calculator1;
-	calculator1.add(10);
+	calculator1.add(50);
+	calculator1.substract(10);
 	calculator1.divide(2);
-	calculator1.Mutiply(2);
+	calculator1.Mutiply(10);
+
 
 
 
