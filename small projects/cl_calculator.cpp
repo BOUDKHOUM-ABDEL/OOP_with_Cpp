@@ -1,13 +1,28 @@
-#include <iostrem>
+#include <iostream>
 #include <string>
+
+using namespace std;
 
 class clcalculator {
 
-public :
-	int total=0;
+public:
+	int total = 0;
 
-	int add(int val) {
+	void add(int val) {
 		total += val;
-		cout << "the total after adding" << val << "is" << total;
+		cout << "the total after adding " << val << " is " << total;
 	}
+
 };
+
+int main() {
+	clcalculator calculator1;
+	calculator1.add(10);
+
+
+	system("pause>0");
+	return(0);
+
+
+}
+
