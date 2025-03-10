@@ -31,6 +31,9 @@ public:
 		total *= val;
 		cout << "the total after Multiplying by " << val << " is " << total << endl;
 	}
+	void print_total() {
+		cout << "the total is " << total << endl;
+	}
 };
 
 int main() {
@@ -39,14 +42,10 @@ int main() {
 	calculator1.substract(10);
 	calculator1.divide(2);
 	calculator1.Mutiply(10);
-
-
-
-
+	calculator1.print_total();
 
 	system("pause>0");
 	return(0);
 
 
 }
-
