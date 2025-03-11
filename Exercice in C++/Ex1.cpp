@@ -18,7 +18,7 @@ int main()
     for (int i = 0; i <= limite; i++) {
         cout << n << "*" << i << "=" << n * i << endl;
     }
-   
+ return (0);  
 }
 
 
