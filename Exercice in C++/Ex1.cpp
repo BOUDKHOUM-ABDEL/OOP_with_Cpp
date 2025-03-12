@@ -10,7 +10,6 @@ int main()
 {
     int n =7, limite;
     
-    cin >> n;
     cout << "\n Saisie de la limite :   " ;
     cin >> limite;
 
