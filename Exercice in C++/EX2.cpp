@@ -35,8 +35,16 @@ int main() {
         cin >> tableau[i];
     }
 
-    
-   
+    cout << "Entrez l'element à rechercher : ";
+    cin >> elementRecherche;
+
+    if (contient_element(tableau, taille, elementRecherche)) {
+        cout << "L'element " << elementRecherche << " est present dans le tableau." << endl;
+    }
+    else {
+        cout << "L'element " << elementRecherche << " n'est pas present dans le tableau." << endl;
+    }
+
     delete[] tableau;
 
     return 0;
