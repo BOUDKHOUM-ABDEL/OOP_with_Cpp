@@ -5,3 +5,40 @@
  3. La fonction retourne true si l’élément est trouvé, sinon false.
  4. L’allocation dynamique de mémoire avec new et la libération de mémoire avec delete
  doivent être effectuées dans le main.*/
+ #include <iostream>
+
+using namespace std;
+
+template <class T>
+bool contient_element(T* tableau, int taille, T element) {
+    for (int i = 0; i < taille; i++) {
+        if (tableau[i] == element) {
+            return true; 
+        }
+    }
+    return false; 
+}
+
+int main() {
+    int taille;
+    int elementRecherche;
+
+
+    cout << "Entrez la taille du tableau : ";
+    cin >> taille;
+
+
+    int* tableau = new int[taille];
+
+    cout << "Entrez les elements du tableau : " << endl;
+    for (int i = 0; i < taille; i++) {
+        cin >> tableau[i];
+    }
+
+    
+   
+    delete[] tableau;
+
+    return 0;
+}
+
