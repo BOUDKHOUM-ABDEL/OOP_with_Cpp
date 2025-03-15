@@ -23,3 +23,16 @@ string Mix_Word(string& word1, string& word2) {
     }
     return new_word;
 }
+int main()
+{
+    string word1, word2;
+
+    cout << "Entrez la première chaîne : ";
+    cin >> word1;
+    cout << "Entrez la deuxième chaîne : ";
+    cin >> word2;
+
+    cout << Mix_Word(word1, word2);
+    
+return 0 ;
+}
