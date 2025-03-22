@@ -46,6 +46,9 @@ private:
 };
 
 int main() {
+    clsPerson p1(1, "Thuram", "Marcos", "+123456789", "Thuram@mail.com");
+	clsPerson p2(1, "Najwa", "Karam", "+236858090", "karam@mail.com");
+
 	
 	system("pause");
 
