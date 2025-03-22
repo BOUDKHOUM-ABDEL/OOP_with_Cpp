@@ -36,7 +36,11 @@ private:
 		cout << "body : " << body << endl;
 		cout << endl;
 	}
-
+    void Sendsms(string sms) {
+		cout << "the following message sent successfully :" << _phone << endl;
+		cout << sms << endl;
+		cout << endl;
+	}
 	
 
 };
