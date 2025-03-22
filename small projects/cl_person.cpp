@@ -49,7 +49,12 @@ int main() {
     clsPerson p1(1, "Thuram", "Marcos", "+123456789", "Thuram@mail.com");
 	clsPerson p2(1, "Najwa", "Karam", "+236858090", "karam@mail.com");
 
-	
+	p1.print();
+	p2.print();
+	p1.Sendemail("hi", "how are you?");
+	p1.Sendsms("how are you?");
+    p2.Sendsms("call me")
+
 	system("pause");
 
 
