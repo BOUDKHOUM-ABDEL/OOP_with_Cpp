@@ -30,6 +30,13 @@ private:
 		cout << "Email: " << _email << endl;
 		cout << "________________________________" << endl;
 	}
+	void Sendemail(string subject, string body) {
+		cout << "the following message sent successfully to email : " << _email << endl;
+		cout << "subject :" << subject << endl;
+		cout << "body : " << body << endl;
+		cout << endl;
+	}
+
 	
 
 };
