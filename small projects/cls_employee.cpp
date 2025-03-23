@@ -49,6 +49,19 @@ public:
 		cout << endl;
 	}
 };
+int main() {
+	clsEmployee emp1(1, "Doe", "John", "123456789", "john@hotmail.com", 500 );
+	clsEmployee emp2(2, "sam", "bwen", "236858090", "sami@hotmail.com", 400);
 
+	emp1.print();
+	emp2.print();
+	emp1.Sendemail("hi", "how are you?");
+	emp1.Sendsms("how are you?");
+	emp2.Sendemail("new job", "you have a new job tomorrow");
+
+	system("pause");
+	
+
+}
 
 
