@@ -16,6 +16,7 @@
         doivent être effectuées dans le main.
 
 **EXERCICE 3:**
+
          Écrivez une fonction qui prend deux chaînes de caractères word1 et word2, puis retourne 
          une nouvelle chaîne où les lettres sont fusionnées en alternance, en commençant par 
          word1.
