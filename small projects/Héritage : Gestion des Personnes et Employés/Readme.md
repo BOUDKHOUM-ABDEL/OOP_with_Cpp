@@ -1,12 +1,12 @@
 
-Énoncé :
+*Énoncé :*
 
      Vous devez créer un système de gestion de personnes et d’employés en utilisant la 
      programmation orientée objet en C++.
      
-Sujet de l'exercice : 
+*Sujet de l'exercice :* 
 
-    Créez une classe clsPerson contenant :
+   **Créez une classe clsPerson contenant :**
 
           1.Des attributs privés : identifiant (_id), nom (_nom), prénom (_prenom), téléphone 
            (_phone), et email (_email).
@@ -20,21 +20,25 @@ Sujet de l'exercice :
           5.Une méthode Sendemail() qui simule l'envoi d'un email à la personne.
 
           6.Une méthode Sendsms() qui simule l'envoi d'un SMS à la personne.
+          
 
-Créez une classe clsEmployee qui hérite de clsPerson et ajoute :
+**Créez une classe clsEmployee :**
 
-Des attributs privés : titre (_title), salaire (_salary), et département (_departement).
+        1.qui hérite de clsPerson et ajoute :
 
-Un constructeur qui initialise ces nouveaux attributs ainsi que ceux de clsPerson.
+        2.Des attributs privés : titre (_title), salaire (_salary), et département (_departement).
 
-Dans la fonction main(), instanciez plusieurs objets clsPerson et clsEmployee, affichez leurs informations et testez les méthodes d’envoi d’email et de SMS.
+        3.Un constructeur qui initialise ces nouveaux attributs ainsi que ceux de clsPerson.
 
-Objectifs pédagogiques :
+**Dans la fonction main():**
 
-Comprendre et appliquer l'encapsulation des attributs avec des modificateurs d'accès (private, public).
+        1.instanciez plusieurs objets clsPerson et clsEmployee.
+        2.affichez leurs informations et testez les méthodes d’envoi d’email et de SMS.
 
-Mettre en œuvre le concept d’héritage en C++.
+*Objectifs pédagogiques :*
 
-Manipuler les classes et objets dans un programme en C++.
-
-Utiliser des méthodes pour afficher et manipuler des données encapsulées.
+       Comprendre et appliquer l'encapsulation des attributs avec des modificateurs d'accès 
+       (private, public).
+       Mettre en œuvre le concept d’héritage en C++.
+       Manipuler les classes et objets dans un programme en C++.
+       Utiliser des méthodes pour afficher et manipuler des données encapsulées.
