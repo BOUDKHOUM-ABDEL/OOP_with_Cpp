@@ -1,6 +1,10 @@
 
 Énoncé :
-     Vous devez créer un système de gestion de personnes et d’employés en utilisant la programmation orientée objet en C++.
+
+     Vous devez créer un système de gestion de personnes et d’employés en utilisant la 
+     programmation orientée objet en C++.
+     
+Sujet de l'exercice : 
 
     Créez une classe clsPerson contenant :
 
