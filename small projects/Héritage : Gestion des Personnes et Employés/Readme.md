@@ -8,17 +8,18 @@ Sujet de l'exercice :
 
     Créez une classe clsPerson contenant :
 
-Des attributs privés : identifiant (_id), nom (_nom), prénom (_prenom), téléphone (_phone), et email (_email).
+          1.Des attributs privés : identifiant (_id), nom (_nom), prénom (_prenom), téléphone 
+           (_phone), et email (_email).
 
-Un constructeur pour initialiser ces attributs.
+          2.Un constructeur pour initialiser ces attributs.
 
-Une méthode fullname() qui retourne le nom complet (nom + prénom).
+          3.Une méthode fullname() qui retourne le nom complet (nom + prénom).
 
-Une méthode print() qui affiche les informations d'une personne.
+          4.Une méthode print() qui affiche les informations d'une personne.
 
-Une méthode Sendemail() qui simule l'envoi d'un email à la personne.
+          5.Une méthode Sendemail() qui simule l'envoi d'un email à la personne.
 
-Une méthode Sendsms() qui simule l'envoi d'un SMS à la personne.
+          6.Une méthode Sendsms() qui simule l'envoi d'un SMS à la personne.
 
 Créez une classe clsEmployee qui hérite de clsPerson et ajoute :
 
