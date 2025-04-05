@@ -50,9 +50,28 @@ private:
     string _title;
     int _salary;
     string _departement;
+public:
 
+    clsEmployee(int id, string nom, string prenom, string phone, string email, string title, int salary, string departement)
+        : clsPerson(id, nom, prenom, phone, email) {
+        _title = title;
+        _salary = salary;
+        _departement = departement;
+    }
 };
 
 int main() {
+    clsPerson p1(1, "thuram", "Marcos", "+123456789", "john@mail.com");
+    clsPerson p2(1, "samya", "bwen", "+236858090", "samia@mail.com");
+    clsEmployee emp1( 4 , "amine", "fowel", "+23768499", "aminne@mail.com","job1", 300, "alxn");
+
+
+    p1.print();
+    p2.print();
+    p1.Sendemail("hi", "how are you?");
+    p1.Sendsms("how are you?");
+    emp1.print();
+    emp1.Sendemail("new job", "you have a new job tomorrow");
+    system("pause");
     return 0;
 }
