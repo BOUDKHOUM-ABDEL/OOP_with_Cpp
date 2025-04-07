@@ -17,6 +17,7 @@ public:
         _phone = phone;
         _email = email;
     }
+
     string fullname() {
         return _nom + " " + _prenom;
     }
@@ -61,9 +62,9 @@ public:
 };
 
 int main() {
-    clsPerson p1(1, "thuram", "Marcos", "+123456789", "john@mail.com");
-    clsPerson p2(1, "samya", "bwen", "+236858090", "samia@mail.com");
-    clsEmployee emp1( 4 , "amine", "fowel", "+23768499", "aminne@mail.com","job1", 300, "alxn");
+    clsPerson p1(1, "thuram", "Marcos", "123456789", "john@mail.com");
+    clsPerson p2(1, "samya", "bwen", "236858090", "samia@mail.com");
+    clsEmployee emp1( 4 , "amine", "modrid", "+23768499", "aminne@mail.com","job1", 300, "alxn");
 
 
     p1.print();
@@ -71,7 +72,7 @@ int main() {
     p1.Sendemail("hi", "how are you?");
     p1.Sendsms("how are you?");
     emp1.print();
-    emp1.Sendemail("new job", "you have a new job tomorrow");
-    system("pause");
+    emp1.Sendemail("cccc", "cvcvcvcv");
+    cin.get();
     return 0;
 }
