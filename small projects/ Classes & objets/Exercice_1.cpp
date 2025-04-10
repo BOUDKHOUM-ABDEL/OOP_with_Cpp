@@ -29,6 +29,7 @@ public:
 };
 
 int main() {
-    
+    // Création d'un objet Person
+    Person personne("Alice", 25);
     return 0;
 }
