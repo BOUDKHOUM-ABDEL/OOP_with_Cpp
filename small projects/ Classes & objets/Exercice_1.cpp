@@ -7,3 +7,17 @@
       — Une méthode introduire() → public qui affiche :
        "Bonjour, je m'appelle nom et j'ai âge ans."
      Créez un objet de cette classe et appelez la méthode.*/
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Person {
+private:
+    string nom;
+    int age;
+};
+
+int main() {
+    return 0;
+}
