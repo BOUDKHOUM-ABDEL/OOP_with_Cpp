@@ -16,6 +16,13 @@ class Person {
 private:
     string nom;
     int age;
+public:
+    // Constructeur
+    Person(string n, int a) {
+        nom = n;
+        age = a;
+    }
+
 };
 
 int main() {
