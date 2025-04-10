@@ -22,7 +22,10 @@ public:
         nom = n;
         age = a;
     }
-
+ // Méthode pour s'introduire
+    void introduire() {
+        cout << "Bonjour, je m'appelle " << nom << " et j'ai " << age << " ans." << endl;
+    }
 };
 
 int main() {
