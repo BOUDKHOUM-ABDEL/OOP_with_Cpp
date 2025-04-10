@@ -31,5 +31,8 @@ public:
 int main() {
     // Création d'un objet Person
     Person personne("Alice", 25);
+     // Appel de la méthode introduire
+    personne.introduire();
+
     return 0;
 }
