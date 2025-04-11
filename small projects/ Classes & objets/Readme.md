@@ -12,9 +12,10 @@
        
       *Créez un objet de cette classe et appelez la méthode.*
 
- Exercice 2 :
- Créez une classe CompteEtudiant qui possède :
- — Unattribut privé notes (un vector de float) pour stocker les notes.
+  **Exercice 1 :**
+  
+      Créez une classe CompteEtudiant qui possède :
+         — Unattribut privé notes (un vector de float) pour stocker les notes.
  Ajoutez :
  — Une méthode obtenirMoyenne() qui retourne la moyenne actuelle des notes. Si le
  tableau est vide, elle retourne 0.
