@@ -38,5 +38,11 @@ public:
 
 int main()
 {
- 
+     clsEtution etudion;
+    etudion.ajouterNote(20);
+    etudion.ajouterNote(13);
+    etudion.ajouterNote(50);
+
+    etudion.obtenirMoyenne();
+    return 0;
 }
