@@ -21,7 +21,19 @@ public:
         return somme / notes.size();
     }
 
-   
+    void ajouterNote(float note) {
+        if (note <= 20 && note >= 0) {
+           notes.push_back(note);
+           cout << "Note ajoutée : " << note << endl;
+           cout << "Nouvelle moyenne : " << obtenirMoyenne() << endl;
+
+        }
+        else {
+            cout << "Erreur : note invalide (" << note << "), doit être entre 0 et 20." << endl;
+        }
+       
+    }
+
 };
 
 int main()
