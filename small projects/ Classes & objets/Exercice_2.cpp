@@ -37,7 +37,17 @@ public:
          return -1;
      }
  }
-
+  void supprimerNote(float note) {
+     int index = trouverNote(note);
+     if (index != -1) {
+         notes.erase(notes.begin() + index);
+         cout << "Note supprimée : " << note << endl;
+         cout << "Nouvelle moyenne : " << obtenirMoyenne() << endl;
+     }
+     else {
+         cout << "Erreur : note " << note << " non trouvée." << endl;
+     }
+ }
 };
 
 int main()
