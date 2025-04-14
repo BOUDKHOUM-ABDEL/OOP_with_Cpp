@@ -53,10 +53,11 @@ public:
 int main()
 {
      clsEtution etudion;
-    etudion.ajouterNote(20);
-    etudion.ajouterNote(13);
-    etudion.ajouterNote(50);
-
-    etudion.obtenirMoyenne();
+        etudion.ajouterNote(20);
+        etudion.ajouterNote(13);
+        etudion.ajouterNote(50);
+        etudion.ajouterNote(17);
+        etudion.obtenirMoyenne();
+        etudion.supprimerNote(13);
     return 0;
 }
