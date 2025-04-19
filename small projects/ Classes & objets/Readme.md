@@ -12,7 +12,7 @@
        
       *Créez un objet de cette classe et appelez la méthode.*
 
-  **Exercice 1 :**
+  **Exercice 2 :**
   
       Créez une classe CompteEtudiant qui possède :
            — Unattribut privé notes (un vector de float) pour stocker les notes.
