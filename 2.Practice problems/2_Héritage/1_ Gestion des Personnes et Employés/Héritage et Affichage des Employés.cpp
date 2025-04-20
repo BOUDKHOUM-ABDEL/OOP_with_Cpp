@@ -51,6 +51,7 @@ private:
     string _title;
     int _salary;
     string _departement;
+
 public:
 
     clsEmployee(int id, string nom, string prenom, string phone, string email, string title, int salary, string departement)
