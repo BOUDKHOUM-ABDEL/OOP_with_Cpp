@@ -17,6 +17,8 @@ public:
  
 };
 int main() {
+    clschien chien1;
+    chien1.son();
 
 	return 0;
 }
