@@ -8,6 +8,11 @@ public:
     }
 };
 
+class clschien : public clsAnimal {
+public:
+    void son() {
+        cout << "Woof" << endl;
+    }
 
  
 };
