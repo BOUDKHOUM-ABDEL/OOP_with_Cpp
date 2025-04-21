@@ -13,12 +13,21 @@ public:
     void son() {
         cout << "Woof" << endl;
     }
+};
+
+ class clschat : public clsAnimal {
+    public:
+        void son() {
+            cout << "Meow" << endl;
+        }
 
 
 };
 int main() {
-    clschien chien1;
-    chien1.son();
+    clschien monchien;
+    clschat monchat;
+    monchien.son(); // Affiche : Woof
+    monchat.son();  // Affiche : Meow
 
 	return 0;
 }
