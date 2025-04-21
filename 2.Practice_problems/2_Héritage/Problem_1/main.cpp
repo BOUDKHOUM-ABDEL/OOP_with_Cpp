@@ -4,7 +4,7 @@ class clsAnimal {
 
 public:
     void son() {
-        cout << "Son d’un animal inconnu." << endl;
+        cout << "Son dâ€™un animal inconnu." << endl;
     }
 };
 
@@ -14,7 +14,7 @@ public:
         cout << "Woof" << endl;
     }
 
- 
+
 };
 int main() {
     clschien chien1;
