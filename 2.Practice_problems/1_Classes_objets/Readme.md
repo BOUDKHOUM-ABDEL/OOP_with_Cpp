@@ -43,7 +43,8 @@
     (addition, soustraction, multiplication, division) tout en maintenant un total courant.
 
       consigns:
-         — Définir une classe appelée clcalculator contenant :
+      
+      Définir une classe appelée clcalculator contenant :
          — Un attribut public total de type int, initialisé à 0.
          — Les méthodes publiques suivantes :
          — void add(int val) : ajoute la valeur val au total et affiche le résultat.
