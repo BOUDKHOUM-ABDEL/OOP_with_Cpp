@@ -37,4 +37,28 @@
       après chaque opération.
 
   
-  **Exercice 3 :**
+  **Exercice 3 :  Implémenter une calculatrice arithmétique simple en C++**
+
+    Créer une calculatrice orientée objet en C++ permettant d’effectuer des opérations arithmétiques de base (addition, soustraction, multiplication, division) tout en maintenant un total courant.
+
+   > [!TIP]
+   >Définir une classe appelée clcalculator contenant :
+   >Un attribut public total de type int, initialisé à 0.
+   >Les méthodes publiques suivantes :
+   >void add(int val) : ajoute la valeur val au total et affiche le résultat.
+
+void substract(int val) : soustrait val du total et affiche le résultat.
+
+void divide(int val) : divise le total par val (affiche un message d’erreur si val vaut 0).
+
+void Mutiply(int val) : multiplie le total par val et affiche le résultat.
+
+void print_total() : affiche le total actuel.
+
+void clear() : remet le total à 0.
+
+Dans la fonction main() :
+
+Créer un objet de la classe clcalculator.
+
+Appeler plusieurs méthodes pour démontrer le fonctionnement de la calculatrice.
