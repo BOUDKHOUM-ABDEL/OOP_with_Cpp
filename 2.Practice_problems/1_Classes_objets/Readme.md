@@ -76,6 +76,8 @@
                 • `_phone` de type `string`  
                 • `_email` de type `string`  
 
-
+        — Un constructeur permettant d’initialiser tous les attributs.  
+  
+       
 
 
