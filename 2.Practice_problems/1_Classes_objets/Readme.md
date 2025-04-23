@@ -57,3 +57,15 @@
       Dans la fonction main() :
            — Créer un objet de la classe clcalculator.
            — Appeler plusieurs méthodes pour démontrer le fonctionnement de la calculatrice.
+
+
+**Exercice 4 : Implémenter une classe représentant une personne en C++**
+
+     Créer une classe orientée objet en C++ permettant de représenter une personne avec ses informations personnelles 
+     et de simuler l’envoi de messages (email et SMS).
+
+
+    **Consignes :**
+
+
+
