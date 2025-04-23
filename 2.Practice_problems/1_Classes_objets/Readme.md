@@ -67,5 +67,15 @@
 
     **Consignes :**
 
+    Définir une classe appelée `clsPerson` contenant :
+
+         — Des attributs privés :  
+ 
+                • `_id` de type `int`  
+                • `_nom` de type `string`  
+                • `_phone` de type `string`  
+                • `_email` de type `string`  
+
+
 
 
