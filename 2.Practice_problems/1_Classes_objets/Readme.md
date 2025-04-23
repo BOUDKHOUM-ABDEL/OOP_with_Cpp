@@ -78,6 +78,12 @@
 
         — Un constructeur permettant d’initialiser tous les attributs.  
   
-       
+        — Les méthodes publiques suivantes :  
+               • `string fullname()` : retourne le nom complet (nom + prénom)  
+               • `void print()` : affiche les informations complètes de la personne  
+               • `void Sendemail(string subject, string body)` : simule l’envoi d’un e-mail en affichant le sujet et le message  
+               • `void Sendsms(string sms)` : simule l’envoi d’un SMS avec le contenu du message  
+
+   
 
 
