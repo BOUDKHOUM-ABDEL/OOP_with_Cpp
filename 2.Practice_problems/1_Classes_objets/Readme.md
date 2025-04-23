@@ -84,6 +84,11 @@
                • `void Sendemail(string subject, string body)` : simule l’envoi d’un e-mail en affichant le sujet et le message  
                • `void Sendsms(string sms)` : simule l’envoi d’un SMS avec le contenu du message  
 
-   
+    **Dans la fonction main() :**
+
+        — Créer deux objets de la classe `clsPerson`.  
+        — Afficher leurs informations personnelles à l’aide de la méthode `print()`.  
+        — Envoyer un email et un SMS à la première personne.  
+        — Envoyer un SMS à la deuxième personne.
 
 
