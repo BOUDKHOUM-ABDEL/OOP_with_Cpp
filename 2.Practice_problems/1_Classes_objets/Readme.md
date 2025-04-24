@@ -94,9 +94,10 @@
 
    **Exercice 5 : Implémenter une classe représentant une panier d’achat en C++**
 
- Simulez un système de panier d’achat en créant une classe Panier qui permet dajouter des
- articles, de calculer le total et dafficher les articles dans le panier. Chaque article doit être
- représenté par une classe Article contenant :
+     Simulez un système de panier d’achat en créant une classe Panier qui permet dajouter des
+     articles, de calculer le total et dafficher les articles dans le panier. Chaque article doit être
+     représenté par une classe Article contenant :
+
  — nom: le nom de l’article (chaîne de caractères).
  — prix : le prix unitaire de l’article (float).
  — quantité : la quantité de l’article (int).
