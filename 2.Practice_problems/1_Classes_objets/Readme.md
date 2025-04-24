@@ -89,6 +89,22 @@
         — Créer deux objets de la classe `clsPerson`.  
         — Afficher leurs informations personnelles à l’aide de la méthode `print()`.  
         — Envoyer un email et un SMS à la première personne.  
-        — Envoyer un SMS à la deuxième personne.
+        — Envoyer un SMS à la deuxième personne. 
 
 
+   **Exercice 5 : Implémenter une classe représentant une panier d’achat en C++**
+
+ Simulez un système de panier d’achat en créant une classe Panier qui permet dajouter des
+ articles, de calculer le total et dafficher les articles dans le panier. Chaque article doit être
+ représenté par une classe Article contenant :
+ — nom: le nom de l’article (chaîne de caractères).
+ — prix : le prix unitaire de l’article (float).
+ — quantité : la quantité de l’article (int).
+ Ajoutez les méthodes suivantes :
+ — totalPrix() dans la classe Article → Retourne le prix total en fonction de la quantité.
+ — afficherInfo() dans la classe Article → Affiche les informations de l’article (nom, quan
+tité et prix).
+ — ajouterArticle() dans la classe Panier → Ajoute un article au panier.
+ — afficherPanier() dans la classe Panier → Affiche le contenu du panier en utilisant la
+ méthode afficherInfo() de la classe Article.
+ — calculerTotal() dans la classe Panier → Calcule et retourne le total du panier.
