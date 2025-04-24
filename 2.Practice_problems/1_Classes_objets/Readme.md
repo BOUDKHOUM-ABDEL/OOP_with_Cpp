@@ -98,14 +98,13 @@
      articles, de calculer le total et dafficher les articles dans le panier. Chaque article doit être
      représenté par une classe Article contenant :
 
- — nom: le nom de l’article (chaîne de caractères).
- — prix : le prix unitaire de l’article (float).
- — quantité : la quantité de l’article (int).
- Ajoutez les méthodes suivantes :
- — totalPrix() dans la classe Article → Retourne le prix total en fonction de la quantité.
- — afficherInfo() dans la classe Article → Affiche les informations de l’article (nom, quan
-tité et prix).
- — ajouterArticle() dans la classe Panier → Ajoute un article au panier.
- — afficherPanier() dans la classe Panier → Affiche le contenu du panier en utilisant la
- méthode afficherInfo() de la classe Article.
- — calculerTotal() dans la classe Panier → Calcule et retourne le total du panier.
+        — nom: le nom de l’article (chaîne de caractères).
+        — prix : le prix unitaire de l’article (float).
+        — quantité : la quantité de l’article (int).
+
+    Ajoutez les méthodes suivantes :
+        — totalPrix() dans la classe Article → Retourne le prix total en fonction de la quantité.
+        — afficherInfo() dans la classe Article → Affiche les informations de l’article (nom, quantité et prix).
+        — ajouterArticle() dans la classe Panier → Ajoute un article au panier.
+        — afficherPanier() dans la classe Panier → Affiche le contenu du panier en utilisant la méthode afficherInfo() de la classe Article.
+        — calculerTotal() dans la classe Panier → Calcule et retourne le total du panier.
