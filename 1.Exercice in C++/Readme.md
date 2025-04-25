@@ -33,6 +33,7 @@
            2. Définir une autre fonction template<typename T> T maxValeur(const std::vector<T>& v) qui retourne :
            la plus grande valeur contenue dans un vecteur.
            3. On suppose que le vecteur contient toujours au moins un élément.
-  4. Dans main(), tester :
- • la fonction avec deux entiers puis deux réels,
- • la fonction avec un vecteur d’entiers puis un vecteur de double.
+ 
+       4. Dans main(), tester :
+          • la fonction avec deux entiers puis deux réels,
+          • la fonction avec un vecteur d’entiers puis un vecteur de double.
