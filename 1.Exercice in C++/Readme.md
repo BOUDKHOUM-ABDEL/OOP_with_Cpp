@@ -26,8 +26,10 @@
              — Sortie : "apbqcr"
 
  Exercice 4 :
+
+
  Écrire un programme utilisant des fonctions template pour déterminer la valeur maximale.
- 1. Définir une fonction template<typename T> T maxValeur(T a, T b) qui retourne la
+           1. Définir une fonction template<typename T> T maxValeur(T a, T b) qui retourne la
  plus grande des deux valeurs.
  2. Définir une autre fonction
  template<typename T> T maxValeur(const std::vector<T>& v)
