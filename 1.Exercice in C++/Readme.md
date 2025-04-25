@@ -24,3 +24,15 @@
          Exemple :
              — Entrée : word1 = "abc", word2 = "pqr"
              — Sortie : "apbqcr"
+
+ Exercice 4 :
+ Écrire un programme utilisant des fonctions template pour déterminer la valeur maximale.
+ 1. Définir une fonction template<typename T> T maxValeur(T a, T b) qui retourne la
+ plus grande des deux valeurs.
+ 2. Définir une autre fonction
+ template<typename T> T maxValeur(const std::vector<T>& v)
+ qui retourne la plus grande valeur contenue dans un vecteur.
+ 3. On suppose que le vecteur contient toujours au moins un élément.
+ 4. Dans main(), tester :
+ • la fonction avec deux entiers puis deux réels,
+ • la fonction avec un vecteur d’entiers puis un vecteur de double.
