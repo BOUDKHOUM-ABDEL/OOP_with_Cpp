@@ -101,7 +101,7 @@
         — nom: le nom de l’article (chaîne de caractères).
         — prix : le prix unitaire de l’article (float).
         — quantité : la quantité de l’article (int).
-
+        
     Ajoutez les méthodes suivantes :
         — totalPrix() dans la classe Article → Retourne le prix total en fonction de la quantité.
         — afficherInfo() dans la classe Article → Affiche les informations de l’article (nom, quantité et prix).
