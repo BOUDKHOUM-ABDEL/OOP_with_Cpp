@@ -5,6 +5,7 @@
  3. La fonction retourne true si l’élément est trouvé, sinon false.
  4. L’allocation dynamique de mémoire avec new et la libération de mémoire avec delete
  doivent être effectuées dans le main.*/
+
  #include <iostream>
 
 using namespace std;
