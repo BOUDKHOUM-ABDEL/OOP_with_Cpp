@@ -48,5 +48,6 @@ int main() {
     delete[] tableau;
 
     return 0;
+ 
 }
 
