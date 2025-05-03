@@ -6,6 +6,7 @@
  4. L’allocation dynamique de mémoire avec new et la libération de mémoire avec delete
  doivent être effectuées dans le main.*/
 
+
  #include <iostream>
 
 using namespace std;
