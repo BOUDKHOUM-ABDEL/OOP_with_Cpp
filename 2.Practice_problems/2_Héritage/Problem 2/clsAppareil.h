@@ -3,31 +3,31 @@
 using namespace std;
 
 class clsAppareil {
-private: 
+private:
 	int _id;
 	string _statut;
-public: 
+public:
 	clsAppareil(int id, string statut) {
 		_id = id;
 		_statut = statut;
 	}
 
 	void afficherStatut() {
-		cout << "Appareil : " << _id << " : " << _statut ;
+		cout << "Appareil : " << _id << " : " << _statut;
 	}
 };
 
-class clsLumiere : public clsAppareil{
-private: 
+class clsLumiere : public clsAppareil {
+private:
 	int _intensite;
 public:
-	clsLumiere(int id, string statut, int intensite) :clsAppareil(_id, _statut) {
+	clsLumiere(int id, string statut, int intensite) :clsAppareil(id, statut) {
 		_intensite = intensite;
 	}
 	void afficher() {
 		afficherStatut();
 		cout << "Intensité lumineuse : " << _intensite << "%" << endl;
-    }
+	}
 
 };
 
@@ -35,21 +35,21 @@ class clsThermostat : protected clsAppareil {
 private:
 	float _temperature;
 public:
-	clsThermostat (int id, string statut, float temperature) :clsAppareil(_id, _statut) {
+	clsThermostat(int id, string statut, float temperature) :clsAppareil(id, statut) {
 		_temperature = temperature;
 	}
 	void afficher() {
 		afficherStatut();
 		cout << "Température actuelle : " << _temperature << "°C" << endl;
 	}
-	}
+
 };
 
 class clsCamera : private clsAppareil {
 private:
 	string  _resolution;
 public:
-	clsCamera(int id, string statut, int resolution) :clsAppareil(_id, _statut) {
+	clsCamera(int id, string statut, int resolution) :clsAppareil(id, statut) {
 		_resolution = resolution;
 	}
 	void afficher() {
@@ -57,3 +57,4 @@ public:
 		cout << "Résolution de la caméra : " << _resolution << endl;
 	}
 };
+
