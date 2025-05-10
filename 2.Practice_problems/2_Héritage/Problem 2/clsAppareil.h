@@ -26,9 +26,9 @@ public:
 	}
 	void afficher() {
 		afficherStatut();
-			cout << "Température actuelle : " << temperature << "°C" << endl;
+		cout << "Intensité lumineuse : " << _intensite << "%" << endl;
     }
-	}
+
 };
 
 class clsThermostat : protected clsAppareil {
@@ -40,19 +40,20 @@ public:
 	}
 	void afficher() {
 		afficherStatut();
-		cout << "Température actuelle : " << temperature << "°C" << endl;
+		cout << "Température actuelle : " << _temperature << "°C" << endl;
 	}
 	}
 };
 
 class clsCamera : private clsAppareil {
 private:
-	int _intensite;
+	string  _resolution;
 public:
 	clsCamera(int id, string statut, int resolution) :clsAppareil(_id, _statut) {
 		_resolution = resolution;
 	}
-	void afficherStatut() {
-		cout << "Appareil : " << _id << " : " << _statut;
+	void afficher() {
+		afficherStatut();
+		cout << "Résolution de la caméra : " << _resolution << endl;
 	}
 };
