@@ -1,4 +1,4 @@
- **Exercice 1 :**
+ **Problem  1 :**
 
       Créez une classe de base Animal avec une méthode son(). Ensuite, définissez deux sous
       classes :
