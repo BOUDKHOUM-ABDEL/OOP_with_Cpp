@@ -27,11 +27,11 @@
 
   **Problem  3 :**
 
- Dans un système de gestion de transport, on modélise une classe Vehicule. Deux types dérivés
- sont définis :
- — Voiture avec une méthode ajouterBagage(int kg) qui vérifie si le poids n’excède pas
- 500 kg, sinon affiche ”Trop lourd”.
- — Moto avec une méthode activerModeSport(bool actif) qui affiche un message si le
- mode est activé .
- Stocker des objets Voiture et Moto dans un vecteur de Vehicule*, puis utiliser dynamic_cast
- pour identifier leur type réel et appeler la méthode spécifique, en vérifiant toujours le cast.
+    Dans un système de gestion de transport, on modélise une classe Vehicule. Deux types dérivés
+    sont définis :
+       — Voiture avec une méthode ajouterBagage(int kg) qui vérifie si le poids n’excède pas
+         500 kg, sinon affiche ”Trop lourd”.
+       — Moto avec une méthode activerModeSport(bool actif) qui affiche un message si le
+         mode est activé .
+    Stocker des objets Voiture et Moto dans un vecteur de Vehicule*, puis utiliser dynamic_cast
+    pour identifier leur type réel et appeler la méthode spécifique, en vérifiant toujours le cast.
