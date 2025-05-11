@@ -9,7 +9,7 @@
       Instanciez les deux classes et appelez leur méthode son().
 
 
- **Problem  1 :**
+ **Problem  2 :**
 
     Modélisez un système domotique avec héritage et liste d’initialisation. Créez une classe de
     base Appareil avec deux attributs protégés : id (entier) et statut (chaîne de caractères).
