@@ -8,6 +8,7 @@
 
       Instanciez les deux classes et appelez leur méthode son().
 
+
  **Problem  1 :**
 
     Modélisez un système domotique avec héritage et liste d’initialisation. Créez une classe de
@@ -19,6 +20,7 @@
        — Lumiere hérite en public, ajoute intensite, et affiche un message personnalisé.
        — Thermostat hérite en protected, ajoute temperature, et affiche un message personnalisé.
        — Camera hérite en private, ajoute resolution, et affiche un message personnalisé.
+
     Chaque classe utilise une liste d’initialisation pour définir les attributs hérités et spécifiques.
     Dans leur méthode afficher(), elles appellent afficherStatut() puis affichent un message
     court décrivant leur état propre.
