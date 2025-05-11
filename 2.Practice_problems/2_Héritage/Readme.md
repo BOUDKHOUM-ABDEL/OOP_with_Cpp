@@ -25,7 +25,8 @@
     Dans leur méthode afficher(), elles appellent afficherStatut() puis affichent un message
     court décrivant leur état propre.
 
-  Exercice 3 :
+  **Problem  3 :**
+
  Dans un système de gestion de transport, on modélise une classe Vehicule. Deux types dérivés
  sont définis :
  — Voiture avec une méthode ajouterBagage(int kg) qui vérifie si le poids n’excède pas
